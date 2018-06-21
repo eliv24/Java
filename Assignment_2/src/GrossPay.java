@@ -11,15 +11,19 @@ public class GrossPay {
 		
 		// Stores the hours
 		System.out.println("What are your hours?");
-		String hours = sc.nextLine();
+		int hours = sc.nextInt();
 		
 		// Stores the pay
 		System.out.println("What is your rate of pay?");
-		String pay = sc.nextLine();
+		int pay = sc.nextInt();
+		
+		// Calculates salary
+		int salary = hours * pay;
 		
 		// The output
 		System.out.println("Name: " + name
 							+ "\nHours: " + hours
-							+ "\nPay: " + pay);
+							+ "\nPay: " + pay 
+							+ "\nWeekly salary: " + salary);
 	}
 }
