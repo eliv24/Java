@@ -1,0 +1,22 @@
+import javax.swing.*;
+public class gradeAverage {
+
+	public static void main(String[] args) {
+		
+		// Main Variables
+		String input;
+		int grade, avgGrade,grades;
+		int counter = 0;
+		
+		// Inputs
+		input = JOptionPane.showInputDialog("How many inputs?");
+		grades = Integer.parseInt(input);
+		
+		while (counter < grades) {
+			input = JOptionPane.showInputDialog("Please enter grade");
+			grade = Integer.parseInt(input);
+		}
+				
+	}
+
+}

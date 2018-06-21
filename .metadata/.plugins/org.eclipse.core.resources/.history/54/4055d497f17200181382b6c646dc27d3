@@ -1,0 +1,17 @@
+
+public class Cobalt60 {
+
+	public static void main(String[] args) {
+		double cobalt60 = 10;
+		double decay = 0.12;
+		
+		for(int i = 0; i < 5; i++) {
+			int counter = 0;
+			counter = counter + i;
+			counter++;
+			System.out.println(counter);
+		}
+
+	}
+
+}

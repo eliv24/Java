@@ -1,0 +1,42 @@
+import java.util.Scanner;
+import java.util.Random;
+public class randomNum {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		Random rand = new Random();
+
+		boolean condition = "";
+		int guess;
+		int num = rand.nextInt(100);
+		
+		System.out.println("Please try and guess the number that will show.");
+		guess = sc.nextInt();
+		
+		do 
+		{
+			if(guess < num)
+			{
+				System.out.println("Too low, try again.");
+				break;
+				guess = sc.nextInt();
+			}
+			else if(guess > num)
+			{
+				System.out.println("Too high, try again.");
+				break;
+				guess = sc.nextInt();
+			}
+			else if(guess == num)
+			{
+				System.out.println("Congrats! You guessed correctly! The number is: " + guess );
+				condition = true;
+			}
+			
+		}
+		while(!condition);
+
+	}
+
+}

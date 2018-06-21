@@ -1,0 +1,20 @@
+
+public class NYCPopulation {
+
+	public static void main(String[] args) {
+		int totalPop = 81751333;
+		int year = 2010;
+		int lowPop;
+		
+		do {
+			lowPop = totalPop / 2;	
+			year = year - 40;					
+		}
+		while(lowPop < 10000);
+		
+		System.out.println(year + " " + lowPop);
+		
+
+	}
+
+}

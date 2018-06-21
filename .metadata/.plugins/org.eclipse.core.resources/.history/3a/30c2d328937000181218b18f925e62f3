@@ -1,0 +1,51 @@
+import javax.swing.*;
+public class gradeAverage {
+
+	public static void main(String[] args) {
+		
+		// Main Variables
+		String input, grades;
+		int grade1, grade2, grade3, grade4, grade5, grade6, grade7, grade8, grade9, grade10, avgGrade;
+		
+		// Inputs
+		grades = JOptionPane.showInputDialog("How many inputs?");
+		while (grades == grades) {
+			input = JOptionPane.showInputDialog("Please enter the first grade");
+			grade1 = Integer.parseInt(input);
+			
+			input = JOptionPane.showInputDialog("Please enter the second grade");
+			grade2 = Integer.parseInt(input);
+			
+			input = JOptionPane.showInputDialog("Please enter the third grade");
+			grade3 = Integer.parseInt(input);
+			
+			input = JOptionPane.showInputDialog("Please enter the fourth grade");
+			grade4 = Integer.parseInt(input);
+			
+			input = JOptionPane.showInputDialog("Please enter the fifth grade");
+			grade5 = Integer.parseInt(input);
+			
+			input = JOptionPane.showInputDialog("Please enter the sixth grade");
+			grade6 = Integer.parseInt(input);
+			
+			input = JOptionPane.showInputDialog("Please enter the seventh grade");
+			grade7 = Integer.parseInt(input);
+			
+			input = JOptionPane.showInputDialog("Please enter the eigth grade");
+			grade8 = Integer.parseInt(input);
+			
+			input = JOptionPane.showInputDialog("Please enter the ninth grade");
+			grade9 = Integer.parseInt(input);
+			
+			input = JOptionPane.showInputDialog("Please enter the tenth grade");
+			grade10 = Integer.parseInt(input);
+			
+			avgGrade = (grade1 + grade2 + grade3 + grade4 + grade5 + grade6
+					+ grade7 + grade8 + grade9 + grade10) / 10;
+			
+			JOptionPane.showMessageDialog(null, "The total average is: " + avgGrade);
+		}
+				
+	}
+
+}

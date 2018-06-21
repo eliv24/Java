@@ -1,0 +1,27 @@
+public class Cipher
+{
+	
+	static String caesar(String value, int shift) {
+		char[] buffer = value.toCharArray();
+		
+		for (int i = 0; i < buffer.length; i++) {
+			char letter = buffer[i];
+			letter = (char) (letter + shift);
+			if (letter >= 'a') {
+				letter = (char) (letter +3);
+			}
+			buffer[i] = letter;
+		}
+		return new String(buffer);
+		
+	}
+
+	public static void main(String[] args) 
+	{
+        String f = "cesar";
+        String g = caesar(f, 0);
+        System.out.println(f);
+        System.out.println(g);
+	}
+
+}

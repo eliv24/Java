@@ -1,0 +1,294 @@
+import java.util.*;
+public class idealWeight {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		double height, weight, ideal;
+		String gender;
+		
+		System.out.println("What is your gender?");
+		gender = sc.nextLine();
+		
+		switch(gender.toLowerCase())
+		{
+			case "male":
+				System.out.println("What is your height in inches?");
+				height = sc.nextDouble();
+				
+				System.out.println("What is your weight?");
+				weight = sc.nextDouble();
+				
+				ideal = (height * 4) - 128;
+				
+				if(height == 60 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 61 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 62 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 63 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 64 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 65 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 66 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 67 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 68 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 69 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 70 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 71 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 72 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 73 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 74 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 75 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				
+			case "female":
+				System.out.println("What is your height in inches?");
+				height = sc.nextDouble();
+				
+				System.out.println("What is your weight?");
+				weight = sc.nextDouble();
+				
+				ideal = (height * 3.5) - 108;
+				
+				if(height == 56 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 57 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 58 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 59 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 60 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 61 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 62 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 63 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 64 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 65 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 66 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 67 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 68 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 69 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 70 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+				if(height == 71 && weight > ideal) 
+				{
+					System.out.println("You are overweight.");
+				}
+				else
+				{
+					System.out.println("You are underweight.");
+				}
+		}
+
+	}
+
+}
